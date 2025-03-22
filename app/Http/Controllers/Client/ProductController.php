@@ -12,4 +12,9 @@ class ProductController extends Controller
        return view('client.product.index');
    
     }
+
+    public function detail($slug){
+      
+        return view('client.product.detail');
+    }
 }
